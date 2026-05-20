@@ -20,8 +20,6 @@ When I have free time, I actively contribute to [ray-project/ray](https://github
 
 ## 📦  Open-Source Work: Ray Contributor
 
-When I am practicing real, disciplined engineering, I target the Ray ML tuning and dependency layers:
-
 * **[In Review] [#63547 Docs: Python Dependency Guide](https://github.com/ray-project/ray/pull/63547):** Added a developer guide mapping Ray's 3-layer dependency graph, `uv` conflict resolution workflows, and cross-platform architecture edge cases.
 * **[Merged] [#60522 Modernize AxSearch API to 1.x](https://github.com/ray-project/ray/pull/60522):** Upgraded core tuning infrastructure for `ax-platform` 1.0+ compatibility and strict error handling.
 * **[Closed] [#62596 Split ci_docgpu CPU/GPU depsets](https://github.com/ray-project/ray/pull/62596):** Restructured dependency lockfiles to isolate and resolve complex pip-compile version clashes (`+pt27cpu` vs `+pt27cu128`).
