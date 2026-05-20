@@ -1,5 +1,4 @@
-Put this in the README.md 
-"# Hi, I'm Adel Nour
+# Hi, I'm Adel Nour
 
 I am an aspiring PhD student who just graduated from **NYU Tandon** (with a Math minor), specializing in Computational Neuroscience. Because reading neural time-series data isn't painful enough, I do heavy software engineering and distributed systems work on the side to scratch the itch. 
 
