@@ -8,7 +8,7 @@ When I have free time, I actively contribute to [ray-project/ray](https://github
 
 ## 🛠️ My "Specialties"
 
-* **Scalability over usability:** If it doesn't require a distributed cluster to compute a linear regression, I don't want it.
+* **Scalability over usability:** If it doesn't require a distributed cluster to compute linear regression, I don't want it.
 * **103% CPU usage:** Maximizing process efficiency by making my local cooling fans sound like a jet engine.
 * **Running large jobs on login nodes:** The ultimate life hack. Keeps my cluster fair-share (`sshare`) metric low while ruining the day for everyone else SSH'd into the cluster.
 * **AI force push and pray:** Letting my AI fix my colleagues AI slop code.
