@@ -1,4 +1,4 @@
-# Hi, I'm Adel Nour
+# Hi, I'm Adel
 
 I just graduated from **NYU** with a CS B.S. (with a Math minor), specializing in Computational Neuroscience. Because reading neural time-series data isn't painful enough, I do heavy software engineering and distributed systems work on the side. 
 
