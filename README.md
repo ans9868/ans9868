@@ -13,7 +13,7 @@ When I have free time, I actively contribute to [ray-project/ray](https://github
 * **Running large jobs on login nodes:** The ultimate life hack. Keeps my cluster fair-share (`sshare`) metric low while ruining the day for everyone else SSH'd into the cluster.
 * **AI force push and pray:** Letting my AI fix my colleagues AI slop code.
 * **Fudging ML accuracy at all costs:** Tuning is expensive, so I optimize performance by seamlessly leaking my training data directly into my test validation loop.
-* **Never doing PRs on local fixes:** If it works on my machine's specific hardcoded path layout, it's ready for production.
+* **Always merging local fixes:** If it works on my machine's specific hardcoded path layout, it's ready for production.
 * **Stating "STEM is dead":** Considering to switch to painting, but still finishing my math problem sets and manually debugging dependencies until 3:00 AM.
 
 ---
