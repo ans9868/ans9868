@@ -1,6 +1,6 @@
 # Hi, I'm Adel Nour
 
-I am **NYU Tandon** graduate who just graduated from **NYU Tandon** (with a Math minor), specializing in Computational Neuroscience. Because reading neural time-series data isn't painful enough, I do heavy software engineering and distributed systems work on the side to scratch the itch. 
+I am **NYU Tandon** graduate who just graduated from **NYU Tandon** (with a Math minor), specializing in Computational Neuroscience. Because reading neural time-series data isn't painful enough, I do heavy software engineering and distributed systems work on the side. 
 
 When I have free time, I actively contribute to [ray-project/ray](https://github.com/ray-project/ray) or read big books that are hard to understand.
 
