@@ -29,7 +29,7 @@ When I have free time, I actively contribute to [ray-project/ray](https://github
 
 ## 🔬 Research
 
-* **[Under Review / Anonymous Draft] [Evaluation Traps in EEG Disease Classification: Identity Leakage, Lucky Folds, and Objective Mismatch Replicated Across AD, FTD, MDD, and SCZ](https://github.com/ans9868/ans9868/blob/main/lucky-fold-neurips.pdf):** *(Currently under double-blind review for NeurIPS; preprint server migration pending).* Evaluated distributed optimization profiles across multiple neural datasets. Implemented a hybrid **PySpark $\to$ Ray Core** batch data pipeline to isolate and execute thousands of independent, iterative machine learning runs.
+* **[Under Review / Anonymous Draft] [Evaluation Traps in EEG Disease Classification: Identity Leakage, Lucky Folds, and Objective Mismatch Replicated Across AD, FTD, MDD, and SCZ](https://zenodo.org/records/20630665):** *(Currently under double-blind review;).* Evaluated distributed optimization profiles across multiple neural datasets. Implemented a hybrid **PySpark $\to$ Ray Core** batch data pipeline to isolate and execute thousands of independent, iterative machine learning runs.
 ---
 
 ## 📝 Technical Articles & Data Science
