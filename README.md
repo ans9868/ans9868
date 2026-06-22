@@ -2,7 +2,7 @@
 
 I just graduated from **NYU** with a CS B.S. (and a Math minor), specializing in Computational Neuroscience. Because reading neural time-series data isn't painful enough, I do heavy software engineering and distributed systems work on the side. 
 
-When I have free time, I actively contribute to [ray-project/ray](https://github.com/ray-project/ray) or read big books that are hard to understand.
+When I have free time, I actively contribute to [ray-project/ray](https://github.com/ray-project/ray) or read research papers.
 
 ---
 
