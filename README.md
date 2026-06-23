@@ -18,12 +18,32 @@ When I have free time, I actively contribute to [ray-project/ray](https://github
 
 ---
 
-## 📦  Open-Source Work: Ray Contributor
+## 📦 Open-Source Work: Ray Contributor
 
-* **[Approved; Waiting to merge] [#63547 Docs: Python Dependency Guide](https://github.com/ray-project/ray/pull/63547):** Added a developer guide mapping `Ray's 3-layer dependency graph`, uv conflict resolution workflows, and cross-platform architecture edge cases.
-* **[Merged] [#60522 Modernize AxSearch API to 1.x](https://github.com/ray-project/ray/pull/60522):** Upgraded core tuning infrastructure for `ax-platform` 1.0+ compatibility and strict error handling.
-* **[Closed] [#62596 Split ci_docgpu CPU/GPU depsets](https://github.com/ray-project/ray/pull/62596):** Restructured dependency lockfiles to isolate and resolve complex pip-compile version clashes (`+pt27cpu` vs `+pt27cu128`).
-* **[Closed] [#62471 Fix Conda PermissionError on Windows](https://github.com/ray-project/ray/pull/62471):** Isolated container-build race conditions caused by in-place `conda update` behavior during runtime cleanup.
+* **[Bayesian Searcher Stability & Modernization (Ax, Optuna, BayesOpt) #60512](https://github.com/ray-project/ray/issues/60512):** Roadmap for improving Ray Tune Bayesian searchers and dependency modernization.
+
+  - **[Completed] Modernize AxSearch API to 1.x** — [#60522](https://github.com/ray-project/ray/pull/60522)  
+    Upgraded the core tuning stack for `ax-platform` 1.0+ compatibility and stricter validation behavior.
+    
+    - Updated to Ax 1.x-style `ObjectiveProperties` / `objectives={...}` APIs.
+    - Handled `AssertionError` cases introduced by stricter Ax 1.0+ checks.
+    - Aligned `tune-requirements.txt` and compiled lockfiles with the modern Ax dependency set.
+
+  - **Related CI / dependency work**
+    - [#62596](https://github.com/ray-project/ray/pull/62596) — Split `ci_docgpu` CPU/GPU depsets to resolve pip-compile version suffix conflicts.
+    - [#62471](https://github.com/ray-project/ray/pull/62471) — Fixed a Windows Conda `PermissionError` caused by in-place update behavior during cleanup.
+
+  - **[Approved] Require `optuna>=3.0.0` in OptunaSearch** — [#64242](https://github.com/ray-project/ray/pull/64242)  
+    Updated docs and added a guard rail for Optuna 3.x compatibility.
+
+  - **BayesOptSearch (“silent stop”)**
+    - Duplicate suggestions can be filtered after GP saturation, which may end experiments early without a clear signal.
+    - Planned fix: warn when duplicate points are dropped.
+    - Planned fix: consider a random/exploratory fallback when the GP repeats the same suggestion.
+    - Planned fix: document current semantics in docstrings and/or Ray Tune docs.
+
+  - **[Approved] Docs: Python Dependency Guide** — [#63547](https://github.com/ray-project/ray/pull/63547)  
+    Added a developer guide covering Ray’s 3-layer dependency graph, `uv` conflict resolution, and cross-platform edge cases.
 
 ---
 
